@@ -3,11 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <title>PaginaPeyote</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+		<div class="header-container">
+			<div class="logo-normal"><a href="index.html"><img src="./logo-serafin.png" alt="logo de la normal serafin peña"></a></div>
+			<div class="secciones">
+				<div class="seccionPagina"><a href="#tipos" class="seccionPagina">Tipos de variables</a></div>
+				<div class="seccionPagina"><a href="#medidas" class="seccionPagina">Medidas de dispersión</a></div>
+				<div class="seccionPagina"><a href="#normal" class="seccionPagina">Distribución normal</a></div>
+				<div class="seccionPagina"><a href="#hipotesis" class="seccionPagina">Prueba de hipótesis</a></div>
+				<div class="seccionPagina"><a href="#correlacion" class="seccionPagina">Correlación</a></div>
+				<div class="seccionPagina"><a href="#autora" class="seccionPagina">Autora</a></div>
+				<div class="seccionPagina"><a href="#comentarios" class="seccionPagina">Comentarios</a></div>
+			</div>
+		</div>
+    </header>
+	<main>
+		<section class="introduccion">
+			<h1>Probabilidad y Estadística</h1>
+			<img src="./estadistica1.png" alt="estadistica izquierda">
+			<p>¡Hola!, en esta página web, colocaré información acerca de los 5 subtemas vistos en mi clase de Probabilidad y Estadística, los cuales
+				son: tipos de variables, medidas de dispersión, distribución normal, prueba de hipótesis y correlación, a los cuales puedes acceder rápidamente
+				usando la barra superior haciendo clic en el subtema al que deseas acceder. Además, añadí una <a href="#autora">sección</a> para que me conozcan y también puedan
+				agregar cualquier <a href="#comentarios">comentario</a> o duda acerca de la página y su contenido.
+			</p>
+			<br>
+			<p>Estoy muy agradecida por los aprendizajes que adquirí en esta materia durante el curso del semestre, espero poder comunicarles lo que he aprendido
+				de una manera clara y eficaz para asegurarme de que conozco bien los temas de la asignatura. Como ya lo mencioné antes, cualquier comentario o duda
+				pueden escribirla en la sección de <a href="#comentarios">comentarios</a> al final de esta página web para leer lo que piensan y poder responder
+				aquellas dudas que puedan surgir al momento de indagar sobre estos subtemas.
+			</p>
+		</section>
+		<section id="tipos">
+			<h2>Tipos de variables</h2>
+			<img src="./estadistica2.jpg" alt="estadistica derecha">
+			<p>La estadística, como disciplina matemática, se basa en la recopilación, análisis e interpretación de datos. Uno de los aspectos fundamentales para entender
+				y trabajar con datos es la clasificación de las variables. Las variables son características o propiedades que pueden variar y que son objeto de estudio en
+				una investigación o análisis estadístico. En estadística, las variables se clasifican principalmente en dos tipos: variables cualitativas y variables
+				cuantitativas.
+			</p>
+			<br>
+			<h3>Variables Cualitativas</h3>
+			<p>Las variables cualitativas se centran en aspectos no numéricos o categóricos de los datos. Estas se subdividen en dos categorías:</p>
+			<ul>
+				<li>
+					Nominales: representan categorías sin un orden específico. Ejemplos comunes incluyen el color de un automóvil, el género de una persona o el tipo de
+					animal. No existe un valor numérico inherente en estas categorías. Por ejemplo: Color de ojos (Azul, Marrón, Verde).
+				</li>
+				<li>
+					Ordinales: Aquí, las categorías tienen un orden específico o jerarquía, pero la distancia entre los valores no es significativa.
+					Ejemplos incluyen rangos educativos, clasificaciones de películas o niveles de satisfacción. Por ejemplo: Nivel de satisfacción de un restaurante
+					(Bajo, Medio, Alto).
+				</li>
+			</ul>
+			<h3>Variables cuantitativas</h3>
+			<p>Las variables cuantitativas implican medidas numéricas y se dividen en dos categorías:</p>
+			<ul>
+				<li>
+					Discretas: Representan valores contables o enteros. Estas variables tienen puntos específicos y finitos, y no pueden tener valores intermedios.
+					Ejemplos incluyen el número de estudiantes en una clase o la cantidad de productos vendidos. Ejemplo: Cantidad de hijos (0, 1, 2, ...).
+				</li>
+				<li>
+					Continuas: Estas variables pueden tener un rango infinito y representan mediciones precisas. Pueden tomar cualquier valor en un intervalo dado.
+					Ejemplos incluyen la altura de una persona, el peso de un objeto o el tiempo que lleva realizar una tarea. Ejemplo: Altura (en metros).
+				</li>
+			</ul>
+			<h3>Otras consideraciones</h3>
+			<ul>
+				<li>Variable Dependiente e Independiente: En el contexto de experimentos o estudios, se habla de variables dependientes (respuesta) e independientes (control).</li>
+				<li>
+					Variables Dummy: En análisis estadístico, especialmente en modelos de regresión, las variables dummy se utilizan para representar categorías cualitativas
+					en forma de variables binarias (0 o 1).
+				</li>
+				<li>En la teoría de la probabilidad, las variables aleatorias representan resultados de un experimento aleatorio y pueden ser discretas o continuas.</li>
+			</ul>
+		</section>
+		<section id="medidas">
+			<h2>Medidas de dispersión</h2>
+			<img src="./estadistica3.png" alt="estadistica izquierda">
+			<p>Las medidas de dispersión son herramientas estadísticas que nos proporcionan información sobre la variabilidad o dispersión de un conjunto de datos.
+				Mientras que las medidas de tendencia central, como la media y la mediana, ofrecen una idea de la ubicación central de los datos, las medidas de
+				dispersión nos indican cuán dispersos o dispersas están esas observaciones alrededor de la media. Existen varias medidas de dispersión, entre las cuales
+				se destacan la varianza, la desviación estándar, el rango y el rango intercuartílico. Cada una de estas medidas aporta información única sobre la dispersión
+				de los datos.
+			</p>
+			<p>Algunos ejemplos son:</p>
+			<ul>
+				<li>
+					Varianza: La varianza es una medida que representa la media de los cuadrados de las desviaciones de cada dato respecto a la media aritmética.
+					Es calculada mediante la fórmula
+					<img src="./varianza.png" alt="formula de la varianza" class="formula">
+					donde n es el tamaño de la muestra, xi (x sub-i) es cada observación, xˉ (x testada) es la media de las observaciones.
+				</li>
+				<li>
+					Desviación estándar: La desviación estándar es simplemente la raíz cuadrada de la varianza y se denota por s (en caso de muestra, pero si fuera una
+					población, se denotaría por la letra griega sigma minúscula). Proporciona una medida de dispersión en la misma unidad que los datos originales.
+					Su fórmula es
+					<img src="./desviacionEstandar.png" alt="formula de la desviacion estandar" class="formula">
+					.
+				</li>
+				<li>
+					Rango: El rango es la diferencia entre el valor máximo y el valor mínimo en un conjunto de datos. Aunque es fácil de calcular, el rango puede ser
+					sensible a valores atípicos y no proporciona información detallada sobre la distribución interna de los datos.
+				</li>
+				<li>
+					Coeficiente de variación: El coeficiente de variación mide la variabilidad relativa de un conjunto de datos y se expresa como un porcentaje.
+					Se calcula dividiendo la desviación estándar por la media y multiplicando por 100. Tal como se ve en la siguiente imagen:
+					<img src="./coefVariacaion.png" alt="formula del coeficiente de variación" class="formula">
+					.
+				</li>
+			</ul>
+		</section>
+		<section id="normal">
+			<h2>Distribución normal</h2>
+		</section>
+	</main>
+	<footer>
+		<small>hola</small>
+	</footer>
 </body>
 </html>
